@@ -1,3 +1,6 @@
 $(document).ready(function() {
-	//Code
+  $.ajax({
+    'url': 'https://flynn.boolean.careers/exercises/api/array/music',
+    'method': 'GET',
+    'success': function(data)
 });
